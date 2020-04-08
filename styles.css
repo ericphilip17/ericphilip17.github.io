@@ -484,7 +484,7 @@ textarea {
   align-items: center;
   justify-content: center;
   font-family: monospace;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   line-height: 2em;
 }
@@ -497,7 +497,7 @@ textarea {
 }
 .partners > ul {
   font-family: serif;
-  font-size: 13px;
+  font-size: 16px;
   text-align: left;
   line-height: 1.6em;
 }
@@ -513,7 +513,6 @@ textarea {
 .aboutUs h1, {
   font-size: 20px;
   padding: 20px;
-  text-align: center;
   text-decoration: underline;
 }
 #libraryTitle {
@@ -521,7 +520,6 @@ textarea {
   padding: 20px;
   padding-bottom: 5px;
   text-align: center;
-  /* text-decoration: underline; */
 }
 .p1, .p2, .p3 {
   background-color: lightgrey;
@@ -529,7 +527,6 @@ textarea {
   font-family: arial;
   line-height: 1.6em;
   font-size: 14px;
-  
 }
 .p1:hover, .p2:hover, .p3:hover {
   background-color: skyblue ;
@@ -552,12 +549,12 @@ textarea {
   align-self: flex-start;
 }
 
-.p1 > h4, .p2 > h4, .p3 > h4 {
+.p1 > h3, .p2 > h3, .p3 > h3 {
   font-size: 13px;
   text-align: center;
   line-height: 1.6em;
   font-family: serif;
-  /* background-color: grey; */
+  font-weight: normal;
   padding: 5px;
 }
 
