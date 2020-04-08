@@ -1,0 +1,90 @@
+/* html {
+  height: 200%;
+} */
+.h4s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.projectsCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.recent {
+  margin-bottom: 0px;
+}
+.art-1 {
+  background-color: #a5a4a4;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 30px;
+  padding: 10px 20px;
+}
+
+.h5Class {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  line-height: 1.6em;
+  font-size: 14px;
+  font-weight: normal;
+}
+.h5Class a {
+  font-size: 15px;
+  margin: 5px 0px;
+  color: brown;
+  font-family: cursive;
+}
+.activeArt {
+  animation: activeArt 3s infinite;
+}
+@keyframes activeArt {
+  0% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 00.5;
+    transform: scale(1.2);
+  }
+}
+.h4Title {
+  color: black;
+  margin-left: 10px;
+  padding: 10px 0px;
+}
+.cross {
+  width: 30px;
+  border-radius: 50%;
+}
+.cross:hover {
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+.readMore h6 {
+  color: black;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.foora {
+  /* background-color: white; */
+  background: repeating-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/code_bg.jpg) center no-repeat;
+  background-clip: padding-box;
+  background-size: cover;
+  opacity: 1;
+  color: white;
+}
+.foora > h5 {
+  color: yellow;
+}

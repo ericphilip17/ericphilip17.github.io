@@ -1,0 +1,22 @@
+.graphMains {
+  display: flex;
+  flex-direction: column;
+}
+.searchSection {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.fomInput input {
+  padding: 7px;
+  font-size: 15px;
+}
+.fomInput button {
+  padding: 7px;
+  font-size: 15px;
+}
+
+.items {
+  background-color: red;
+}
