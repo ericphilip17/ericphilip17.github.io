@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <script src="script.js" type="text/javascript"></script> -->
   </head>
 
   <body>
@@ -14,7 +15,7 @@
           <div class="navigation">
             <div class="home" id=""><a href="#scrollTop">Home</a></div>
             <div class="about"><a href="#aboutScroll">About</a></div>
-            <div class="about"><a href="Projects/project.html">Projects</a></div>
+            <div class="about"><a href="#">FAQs</a></div>
             <div class="contacts"><a href="#jFooter">Contacts</a></div>
           </div>
         </div>
@@ -34,6 +35,8 @@
         <div class="mediaFixed">
           <div class="mediaLogosFixed">
             <a href="#"><img src="img/Social_Media_Logos/fb.jpg" alt="Facebook logo"><br></a>
+            <!-- <a href="#"><img src="img/Social_Media_Logos/tweeter.jpg" alt="Tweeter logo"></a>
+            <a href="#"><img src="img/Social_Media_Logos/ln.jpg" alt="Instagram logo"><br></a> -->
             <a href="#"><img src="img/Social_Media_Logos/whatsapp.jpg" alt="Whatsapp logo"><br></a>
           </div>
         </div>
@@ -78,7 +81,7 @@
           <div class="ceo">
             <div class="mngImages"><img src="img/m1.jpg" alt="CEO image"></div>
             <div class="ceoDetails">
-              <p>John Doe<br>Head</p>
+              <p>John Doe<br>CEO</p>
               <h3>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                tempor incididunt ut labore et dolore
@@ -91,7 +94,7 @@
           <div class="md">
             <div class="mngImages common"><img src="img/m2.jpg" alt="CEO image"></div>
             <div class="mdDetails">
-              <p>Mike Spence<br>Academic Writer</p>
+              <p>Mike Spence<br>Managing Director</p>
                 <h3>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                  tempor incididunt ut labore et dolore
@@ -104,7 +107,7 @@
           <div class="technician common">
             <div class="mngImages"><img src="img/m3.jpg" alt="CEO image"></div>
             <div class="technicianDetails">
-              <p>Jane Smith<br>Article Writer</p>
+              <p>Jane Smith<br>Content Writer</p>
                 <h3>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                  tempor incididunt ut labore et dolore
@@ -113,6 +116,19 @@
                </h3>
            </div>
           </div>
+
+          <!-- <div class="technician common">
+            <div class="mngImages"><img src="img/m4.jpg" alt="CEO image"></div>
+            <div class="technicianDetails">
+              <p>Larry Kudala<br>Marketing</p>
+                <h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                 tempor incididunt ut labore et dolore
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                 tempor incididunt ut labore et dolore
+               </h3>
+           </div>
+          </div> -->
         </div>
 
 
@@ -130,7 +146,7 @@
             </div>
 
             <div class="box">
-              <a class="imgLink" href="Projects/project.html#p1">
+              <a class="imgLink" href="#">
                 <img src="img/portfolio-06.jpg" alt="project 1 Image">
                 <div class="text">
                   <h1>Project 2</h1>
@@ -140,7 +156,7 @@
             </div>
 
             <div class="box">
-              <a class="imgLink" href="Projects/project.html#p2">
+              <a class="imgLink" href="#">
                 <img src="img/portfolio-06.jpg" alt="project 1 Image">
                 <div class="text">
                   <h1>Project 3</h1>
@@ -150,7 +166,7 @@
             </div>
 
             <div class="box">
-              <a class="imgLink" href="Projects/project.html#p3">
+              <a class="imgLink" href="#">
                 <img src="img/portfolio-06.jpg" alt="project 1 Image">
                 <div class="text">
                   <h1>Project 4</h1>
@@ -160,7 +176,7 @@
             </div>
 
             <div class="box">
-              <a class="imgLink" href="Projects/project.html#p4">
+              <a class="imgLink" href="#">
                 <img src="img/portfolio-06.jpg" alt="project 1 Image">
                 <div class="text">
                   <h1>Project 5</h1>
@@ -170,7 +186,7 @@
             </div>
 
             <div class="box">
-              <a class="imgLink" href="Projects/project.html#p5">
+              <a class="imgLink" href="#">
                 <img src="img/portfolio-04.jpg" alt="project 1 Image">
                 <div class="text">
                   <h1>Project 6</h1>
@@ -183,36 +199,70 @@
         <div class="contactUs">
           <div class="messagebox">
             <div class="msgTitle"><h4>Contact Us</h4></div>
-            <div class="name">Enter your Details here<br>
+            <div class="name"> Enter your Details here<br>
               <input placeholder="What's your name?" type="text" name="" value="">
             </div>
             <div class="email">
               <input class="clearInputs" placeholder="Email (Optional)" type="text" name="" value="">
             </div>
             <div class="phone">
-              <input class="clearInputs" placeholder="Phone Number" type="text" name="" value="">
+              <input class="clearInputs" placeholder="Phone Number" type="number" name="" value="">
             </div>
             <div id="message">
               <textarea class="clearInputs" placeholder="Write your message here" name="name" rows="5"></textarea>
             </div>
-            <div class="feedback success"></div>
-            <div class="feedback failed"></div>
+            <!-- <button type="button" name="button">Submit</button> -->
+            <div class="feedback success">Send Successfully.</div>
+            <div class="feedback failed">Name and Message Missing</div>
             <button id="sendBtn" type="button" name="button">Submit</button>
           </div>
 
           <div class="keepReading" id="reload">
-            <div class="feedbackTitle"></div>
+            <div class="feedbackTitle">Confirm Message</div>
             <div class="deletedRes"><h3>Thank you for getting in touch. We will get back soonest possible :) <br><a href="#scrollTop">Go Home</a></h3></div>
             <div class="responses">
 
                 <div class="com1 client1">
-                  <i></i>
+                  <i>The message you write will be diplayed here, together with your name. Please click the 'Send Message'
+                      button to submit your message.
+                      consectetur adipisicing elit, dolor sit  adipisicing elit, sed do eiusmod  tesert laborum.
+                      consectetur adipisicing elit, dolor sit  adipisicing elit, sed do eiusmod  tesert laborum.
+                        consectetur adipisicing elit, dolor sit  adipisicing elit, sed do eiusmod  tesert laborum.
+                  </i>
+
                   <div class="bottom">
-                    <button class="sendMsgBtn" type="button" name="button"><a href="#">It's good?</a></button>
+                    <button class="sendMsgBtn" type="button" name="button">It's good?</button>
                     <button class="deleteBtn" type="button" name="button">Delete</button>
-                    <h2></h2>
+                    <h2>~Steve Jobs</h2>
                   </div>
                 </div>
+
+                <!-- <div class="com2 client1">
+                  <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tesert laborum.</i>
+                  <div class="bottom">
+                    <button class="sendMsgBtn" type="button" name="button">Send</button>
+                    <button class="deleteBtn" type="button" name="button">Delete</button>
+                    <h2>~Steve Jobs</h2>
+                  </div>
+                </div>
+
+                <div class="com3 client1">
+                  <i>Lorem ipsum dolor sit amet, ctetur adipisicing elit, sed do eiusmodctetur adipisicing elit,
+                    sed do eiusmodconsectetur adipisicing elit, sed do eiusmod tesert laborum.</i>
+                  <div class="bottom">
+                    <button class="sendMsgBtn" type="button" name="button">Send</button>
+                    <button class="deleteBtn" type="button" name="button">Delete</button>
+                    <h2>~Steve Jobs</h2>
+                  </div>
+                </div>
+                <div class="com4 client1">
+                  <i>Lorem ipsum dolor sit amet, consectetur psum dolor sit amet, conadipisicing elit, sed do eiusmod tesert laborum.</i>
+                  <div class="bottom">
+                    <button class="sendMsgBtn" type="button" name="button">Send</button>
+                    <button class="deleteBtn" type="button" name="button">Delete</button>
+                    <h2>~Steve Jobs</h2>
+                  </div>
+                </div> -->
 
               </div>
           </div>
@@ -223,52 +273,87 @@
         <div class="addBooks">
 
           <div class="leftBooks">
-            <h5 style="margin-top:0px; margin-bottom: 10px;"><br>Project 1</h5>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud sint occaecat cupidatat non
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
             <h5><br>Client's name</h5>
           </div>
 
           <div class="rightBooks">
-            <h5 style="margin-top:0px; margin-bottom: 10px;"><br>Project 2</h5>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. U pariatur. Excepteur sint occaecat
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
             <h5><br>Client's name</h5>
           </div>
 
           <div class="leftBooks">
-            <h5 style="margin-top:0px; margin-bottom: 10px;"><br>Project 3</h5>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor Excepteur sint occaecat cupidatat non
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
             <h5><br>Client's name</h5>
           </div>
 
           <div class="rightBooks">
-            <h5 style="margin-top:0px; margin-bottom: 10px;"><br>Project 4</h5>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
             <h5><br>Client's name</h5>
           </div>
+
+
+
         </div>
 
-        <div class="foot" id="jFooter">
-          <div class="copyright">@Copyright 2020 <br> <a href="ClonedHome/index.html">Cloned Developers </a><br> +254 753 017 024 <br>
-            <div class="clonedLogos">
-              <img src="img/Social_Media_Logos/fb.jpg" alt="Facebook logo">
-              <img src="img/Social_Media_Logos/whatsapp.jpg" alt="Whatsapp logo">
-            </div>
+        <!-- <div id="form">
+
+          <form id="searchBox" action="index.html" method="post">
+            <input placeholder="Search books by Title" type="text">
+          </form>
+
+          <ul class="books">
+            <li class="book">
+              <h5>Algorithms in Programming</h5>
+              <button class="del">Remove</button>
+            </li>
+            <li class="book">
+              <h5>Datatypes in Javascript</h5>
+              <button class="del">Remove</button></li>
+            <li class="book">
+              <h5>Data Science with Python</h5>
+              <button class="del">Remove</button></li>
+            <li class="book">
+              <h5>Android App development</h5>
+              <button class="del">Remove</button></li>
+          </ul>
+
+          <form class="fooom" id="inputForm" action="index.html" method="post">
+            <input placeholder="Book Title" type="text">
+            <button>Add</button>
+          </form>
+          <div class="checking">
+            <input type="checkbox" class="ckBox" id="checked" name="" value="">
+            <label for="hide">Hide all Books</label>
           </div>
 
+        </div> -->
+
+
+        <div class="foot" id="jFooter">
+          <div class="copyright">@Copyright 2020 <br> By Cream Developers <br> +2547 98 968 942</div>
           <div class="media">
             <div class="mediaTag">Find us on:</div>
             <div class="mediaLogos">
@@ -278,17 +363,17 @@
               <img src="img/Social_Media_Logos/whatsapp.jpg" alt="Whatsapp logo"><br>
             </div>
           </div>
-          <div class="partners">Clients<br>
+          <div class="partners">Partners <br>
             <ul>
-              <li class="one"><a href="Projects/project.html#partners">Client 1</a></li>
-              <li class="two"><a href="Projects/project.html#partners">Client 2</a></li>
-              <li class="three"><a href="Projects/project.html#partners">Client 3</a></li>
+              <li class="one"><a href="#scroll">IP-Tech Designs</a></li>
+              <li class="two"><a href="#scroll">Chrome City</a></li>
+              <li class="three"><a href="#scroll">Spark Group</a></li>
             </ul>
           </div>
         </div>
   </div>
 
   </body>
-  <script src="scriptP.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
 
 </html>
