@@ -534,7 +534,7 @@ textarea {
   border-radius: 5px;
   transition: 0.8s;
 }
-.p1 > h4, .p2 > h4, .p3 > h4 {
+.p1 > h3, .p2 > h3, .p3 > h3 {
   display: flex;
   justify-content: flex-start;
   text-align: center;
@@ -549,7 +549,7 @@ textarea {
   align-self: flex-start;
 }
 
-.p1 > h3, .p2 > h3, .p3 > h3 {
+.p1 > h4, .p2 > h4, .p3 > h4 {
   font-size: 13px;
   text-align: center;
   line-height: 1.6em;
