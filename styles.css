@@ -517,7 +517,7 @@ textarea {
   text-decoration: underline;
 }
 #abtUs {
-  margin-top: 20px;
+  margin: 20px 0px;
   text-align: center;
   padding: 10px;
 }
@@ -541,26 +541,19 @@ textarea {
   transition: 0.8s;
 }
 .p1 > h3, .p2 > h3, .p3 > h3 {
-  display: flex;
-  justify-content: flex-start;
   text-align: center;
-  padding: 7px;
+  padding: 10px;
   color: green;
-  /* background-color: grey; */
-  border-radius: 20px;
-  /* width: 300px; */
-  border-top: none;
-  flex-wrap: wrap;
-  align-self: flex-start;
+  font-size: 17px;
 }
 
 .p1 > h4, .p2 > h4, .p3 > h4 {
-  
-  text-align: center;
+  text-align: left;
   line-height: 1.6em;
-  font-family: serif;
+  font-family: cursive;
   font-weight: normal;
-  padding: 5px;
+  font-size: 14px;
+  padding: 10px;
 }
 
 #inputForm {
