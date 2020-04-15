@@ -507,8 +507,7 @@ textarea {
   justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: lightgrey;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10px 30px;
 }
 .aboutUs h3, {
   margin-top: 10px;
@@ -516,6 +515,11 @@ textarea {
   width: 100%;
   padding: 20px;
   text-decoration: underline;
+}
+#abtUs {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
 }
 #libraryTitle {
   font-size: 24px;
