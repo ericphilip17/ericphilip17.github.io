@@ -539,8 +539,8 @@ textarea {
   justify-content: flex-start;
   text-align: center;
   padding: 7px;
-  font-size: 16px;
-  color: yellow;
+  font-size: 50px;
+  color: green;
   /* background-color: grey; */
   border-radius: 20px;
   /* width: 300px; */
@@ -557,7 +557,6 @@ textarea {
   font-weight: normal;
   padding: 5px;
   font-size: 13px;
-  background-color: red
 }
 
 #inputForm {
