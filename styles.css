@@ -501,7 +501,9 @@ textarea {
   text-align: left;
   line-height: 1.6em;
 }
-
+.partners > ul > a {
+  text-decoration: none;
+}
 .aboutUs {
   display: flex;
   justify-content: space-evenly;
@@ -575,14 +577,13 @@ textarea {
   background: linear-gradient(rgba(0, 100, 50, 0.2), rgba(0, 100, 50, 0.2));
   margin-bottom: 10px;
   margin-top: 10px;
-
 }
 .leftBooks {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  flex: 1;
+  flex: 1 0 30%;
   padding: 20px;
 }
 .leftBooks:hover {
@@ -601,7 +602,7 @@ textarea {
   flex-wrap: wrap;
   padding: 20px;
   text-align: right;
-  flex: 1;
+  flex: 1 0 30%;
 }
 .rightBooks > h5, .leftBooks > h5 {
   display: flex;
@@ -609,7 +610,7 @@ textarea {
   align-items: center;
   margin-top: 10px;
   font-size: 15px;
-  color: red;
+  color: #591f1f;
 }
 .checking {
   padding: 10px;
@@ -617,7 +618,6 @@ textarea {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  /* background-color: red; */
 }
 .checking > input {
   width: 10px;
