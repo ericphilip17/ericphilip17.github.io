@@ -521,7 +521,7 @@ textarea {
   justify-content: center;
   margin: 20px 0px;
   padding: 10px;
-  color: red;
+  font-size: 2em;
 }
 #libraryTitle {
   font-size: 24px;
@@ -605,9 +605,11 @@ textarea {
 }
 .rightBooks > h5, .leftBooks > h5 {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
+  font-size: 15px;
+  color: red;
 }
 .checking {
   padding: 10px;
