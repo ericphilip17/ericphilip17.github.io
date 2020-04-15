@@ -517,6 +517,8 @@ textarea {
   text-decoration: underline;
 }
 #abtUs {
+  display: flex;
+  justify-content: center;
   margin: 20px 0px;
   padding: 10px;
   color: red;
