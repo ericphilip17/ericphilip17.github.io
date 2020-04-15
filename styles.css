@@ -540,7 +540,7 @@ textarea {
   text-align: center;
   padding: 7px;
   font-size: 16px;
-  color: green;
+  color: yellow;
   /* background-color: grey; */
   border-radius: 20px;
   /* width: 300px; */
@@ -550,12 +550,14 @@ textarea {
 }
 
 .p1 > h4, .p2 > h4, .p3 > h4 {
-  font-size: 13px;
+  
   text-align: center;
   line-height: 1.6em;
   font-family: serif;
   font-weight: normal;
   padding: 5px;
+  font-size: 13px;
+  background-color: red
 }
 
 #inputForm {
