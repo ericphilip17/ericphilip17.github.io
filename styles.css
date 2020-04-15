@@ -582,7 +582,7 @@ textarea {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  flex: 0 0 200px;
+  flex: 1;
   padding: 20px;
 }
 .leftBooks:hover {
@@ -601,7 +601,7 @@ textarea {
   flex-wrap: wrap;
   padding: 20px;
   text-align: right;
-  flex: 0 0 200px;
+  flex: 1;
 }
 .rightBooks > h5, .leftBooks > h5 {
   display: flex;
